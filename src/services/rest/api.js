@@ -10,6 +10,6 @@ export const getAllmovies = async (search) => {
 };
 
 export const getGenres = async () => {  
-  const response = await instance.get('genre/movie/list?api_key=f9a3efe8c813e81a40a9b661bde37457&language=fr-FR');
+  const response = await instance.get('genre/movie/list?api_key=f9a3efe8c813e81a40a9b661bde37457&language=en-EN');
   return response.data.genres;
 };
