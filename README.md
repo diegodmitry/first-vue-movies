@@ -4,6 +4,6 @@ API para procurar filmes e reorganizá-los.
 
 ## Instalação 
 ```sh
-cd /path/to/app
+cd /first-vue-movies/
 npm run dev
 ```
